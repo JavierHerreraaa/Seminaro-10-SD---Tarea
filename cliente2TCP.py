@@ -7,7 +7,7 @@ HOST2='localhost'
 PORT2=1025
 s_tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s_tcp.bind((HOST2, PORT2))
-s_tcp.listen(5)
+s_tcp.listen(3)
 
 def clientenuevo(cliente, direccion):
     print("El cliente con IP y puerto: " +str(direccion))
