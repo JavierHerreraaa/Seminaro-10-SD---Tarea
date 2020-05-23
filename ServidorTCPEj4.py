@@ -31,8 +31,8 @@ if __name__ == "__main__":
     LISTA_SOCKETS = []
     servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    HOST = 'localhost'
-    PORT = 1025
+    HOST = '196.168.0.1'
+    PORT = 8080
 
     servidor.bind((HOST, PORT))
 
