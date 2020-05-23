@@ -3,6 +3,7 @@
 #include <string.h>
 #include <iomanip>
 #include "usuario.hpp"
+#include <stdio.h>
 bool luhn(const Cadena&);
 using namespace std;
 Numero::Numero(const Cadena& num_){
